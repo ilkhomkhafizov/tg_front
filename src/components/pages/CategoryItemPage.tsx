@@ -1,10 +1,7 @@
-import { Card, CardBody, CardFooter, Stack } from "@chakra-ui/react";
-import React from "react";
+import { Card, CardBody } from "@chakra-ui/react";
 import { ICategory } from "../models/ICategoryResponse";
 import { Image } from "@chakra-ui/react";
 import { Heading } from "@chakra-ui/react";
-import { Text } from "@chakra-ui/react";
-import { Button } from "@chakra-ui/react";
 
 export default function CategoryItemPage({
   thumbnail,

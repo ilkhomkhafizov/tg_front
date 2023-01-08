@@ -1,5 +1,5 @@
 import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react"
-import { ICategory, ICategoryResponse } from "../../models/ICategoryResponse"
+import { ICategoryResponse } from "../../models/ICategoryResponse"
 
 export const referenceApi = createApi({
     reducerPath: "refereance/api",
